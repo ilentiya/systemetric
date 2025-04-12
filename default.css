@@ -8,31 +8,18 @@
     --tile-selector-columns: 1;
 
     --sidebar_background: rgb(139, 172, 220);
-    --header_background: rgb(231, 113, 113);
-    --main_background: powderblue;
+    --header_background: rgb(66,0,17);
+    --main_background: white;
     --aside_text_colour: rgb(36, 48, 63);
 }
 /* lets you have easily variable dimensions
 best to put all dimensions in here and then
 stuff calculated from variables */
 
-@font-face
-{
-    font-family: "Cherry Bomb One";
-    src: url("./assets/CherryBombOne-Regular.ttf");
-    /* Licence: ./assets/OFL.txt */
-}
-
-@font-face
-{
-    font-family: "Tsukimi Round Bold";
-    src: url("./assets/TsukimiRounded-Bold.ttf");
-    /* Licence: ./assets/OFL.txt */
-}
 
 body
 {
-    font-family: "Tsukimi Round Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--main_background);
     margin: 0;
     box-sizing: border-box;
@@ -58,15 +45,6 @@ aside
 
 }
 
-#instructions
-{
-    left: 0;
-}
-
-#playing-panel
-{
-    right: 0;
-}
 
 .tile_selector_sidebar_container
 {
@@ -96,7 +74,7 @@ aside
 
 header
 {
-    background: lightcoral;
+    background: var(--header_background);
     position: absolute;
     width: 100%;
     height: 100px;
@@ -104,9 +82,8 @@ header
 
 h1 
 {
-    font-family: 'Cherry Bomb One', sans-serif;
-    text-align: center;
-    font-size: 8vw;
+    text-align: left;
+    font-size: 3vw;
     margin-top: 0;
     margin-bottom: 1;
     line-height: var(--header-height);
