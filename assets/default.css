@@ -3,7 +3,7 @@
     --header-height: 30px;
     --footer-height: 15px;
 
-    /* COLOURS */
+    /* ///////////////////////////////////////COLOURS////////////////////////////////////////// */
     --systemetric_red: #420011;
     --button_colour: #ffcccc;
 
@@ -12,6 +12,7 @@
 body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
 
 }
 
