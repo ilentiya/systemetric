@@ -2,6 +2,7 @@
 {
     --header-height: 75px;
 
+    /* COLOURS */
     --systemetric_red: #420011;
     --button_colour: #ffcccc;
 
@@ -12,7 +13,6 @@ stuff calculated from variables */
 
 .top_bar {
     background-color: var(--systemetric_red);
-    height: var(--header-height);
 }
 
 body
@@ -37,14 +37,13 @@ header
 h1 
 {
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 2vw;
     margin-top: 0;
     margin-bottom: 1;
     margin-left: 1;
     line-height: var(--header-height);
     color: white;
-    background: var(--header_background);
-    
+
 }
 
 .button {
