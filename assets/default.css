@@ -28,7 +28,7 @@ body
 .bottom_bar {
     background-color: var(--systemetric_red);
     height: var(--footer-height);
-    width: 100%;
+    width: 100vw;
     position: fixed;
     bottom: 0;
 }
