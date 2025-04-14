@@ -36,7 +36,8 @@ body
 {
     position: relative;
     width: 80vw;
-    align-self: center;
+    left: 10vw;
+    right: 10vw;
 
     top: var(--header-height);
 
