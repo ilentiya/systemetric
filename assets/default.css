@@ -2,10 +2,10 @@
 {
     --header-height: 75px;
 
-    --sidebar_background: rgb(139, 172, 220);
-    --header_background: rgb(66,0,17);
-    --main_background: white;
-    --aside_text_colour: rgb(36, 48, 63);
+    --systemetric_red: #420011;
+    --button_colour: #ffcccc;
+
+
 }
 /* lets you have easily variable dimensions
 best to put all dimensions in here and then

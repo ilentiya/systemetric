@@ -1,0 +1,26 @@
+//This file contains all the configuration that is unique to the footer.html file
+
+.bottom_bar {
+    background-color: $Systemetric_red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
+}
+
+.bottom_bar a{
+    color: $stings_near_white;
+}
+
+.back-to-top{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .social img{
+        width: 32px;
+    }
+}
