@@ -70,12 +70,9 @@ h1
 
 main
 {
-    background: var(--main_background);
     position: absolute;
     top: var(--header-height) ;
-    left: var(--sidebar-width) ;
-    width: calc(100% - var(--sidebar-width) - var(--sidebar-width));
-    height: calc(100% - var(--header-height));
+
 
 
 }
