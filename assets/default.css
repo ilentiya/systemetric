@@ -15,12 +15,13 @@
     text-align: left;
     font-size: 18pt;
     color: white;
-    padding: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 .bottom_bar {
     background-color: var(--systemetric_red);
-    line-height: var(--footer-height);
+    height: var(--footer-height);
     width: vw;
     position: fixed;
     bottom: 0;
