@@ -18,7 +18,7 @@ stuff calculated from variables */
     font-size: 1.5vw;
     line-height: var(--header-height);
     color: white;
-    padding: 15px 15px;
+    padding: 20px;
 }
 
 .bottom_bar {
@@ -30,9 +30,7 @@ body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    box-sizing: border-box;
-    /* gets rid of the space 
-    around edges of page */
+    width: 0.7vw;
 
 }
 
@@ -46,14 +44,13 @@ header
 
 h1 
 {
-    text-align: left;
-    font-size: 2vw;
-    margin-top: 0;
+    text-align: center;
+    font-size: 18pt;
+    margin-top: 1;
     margin-bottom: 1;
     margin-left: 1;
-    line-height: var(--header-height);
-    color: white;
-
+    margin-right: 1;
+    line-height: 20px;
 }
 
 .button {
@@ -68,11 +65,8 @@ h1
     cursor: pointer;
   }
 
-main
+.content
 {
     position: absolute;
     top: var(--header-height) ;
-
-
-
 }
