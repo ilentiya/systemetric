@@ -21,12 +21,16 @@
 .bottom_bar {
     background-color: var(--systemetric_red);
     line-height: var(--footer-height);
+    position: fixed;
+    bottom: 0;
 }
 
 .content
 {
     position: absolute;
     top: var(--header-height);
+    margin-top: 15px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
 
