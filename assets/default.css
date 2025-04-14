@@ -19,24 +19,25 @@ body
 }
 
 .top_bar {
-    background-color: var(--systemetric_red);
-    height: var(--header-height);
-    text-align: left;
-    font-size: 2vh;
-    color: white;
-    margin: 0;
-    padding-left: 15px;
-    padding-bottom: 15px;
     position: fixed;
     top: 0;
+
+    background-color: var(--systemetric_red);
+    height: var(--header-height);
+    
+    text-align: left;
+    font-size: 10vh;
+    color: white;
+    padding-left: var(--header-height)/2;
+    padding-bottom: var(--header-height)/2;
 }
 
 .bottom_bar {
+    position: absolute;
+    bottom: 0;
+
     background-color: var(--systemetric_red);
     height: var(--footer-height);
-    margin: 0;
-    position: fixed;
-    bottom: 0;
 }
 
 .content
