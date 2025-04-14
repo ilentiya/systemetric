@@ -8,9 +8,6 @@
     --button_colour: #ffcccc;
 
 }
-/* lets you have easily variable dimensions
-best to put all dimensions in here and then
-stuff calculated from variables */
 
 .top_bar {
     background-color: var(--systemetric_red);
@@ -30,7 +27,6 @@ body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    width: 0.7vw;
 
 }
 
@@ -68,5 +64,6 @@ h1
 .content
 {
     position: absolute;
-    top: var(--header-height) ;
+    top: var(--header-height);
+
 }
