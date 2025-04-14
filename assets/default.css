@@ -10,11 +10,14 @@
 best to put all dimensions in here and then
 stuff calculated from variables */
 
+.top_bar {
+    background-color: var(--systemetric_red);
+    height: var(--header-height);
+}
 
 body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--main_background);
     margin: 0;
     box-sizing: border-box;
     /* gets rid of the space 
@@ -22,9 +25,6 @@ body
 
 }
 
-.top_bar {
-    background-color: var(--systemetric_red);
-}
 
 header
 {
