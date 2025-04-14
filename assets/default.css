@@ -1,7 +1,7 @@
 :root
 {
-    --header-height: 30px;
-    --footer-height: 15px;
+    --header-height: 50px;
+    --footer-height: 20px;
 
     /* ///////////////////////////////////////COLOURS////////////////////////////////////////// */
     --systemetric_red: #420011;
@@ -32,14 +32,6 @@ body
     padding-bottom: var(--header-height)/2;
 }
 
-.bottom_bar {
-    position:absolute
-    width: 100%;
-
-    background-color: var(--systemetric_red);
-    height: var(--footer-height);
-}
-
 .content
 {
     position: relative;
@@ -47,13 +39,22 @@ body
     align-self: center;
 
     top: var(--header-height);
-    bottom: var(--footer-height);
+
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
 
 }
 
+
+.bottom_bar {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+
+    background-color: var(--systemetric_red);
+    height: var(--footer-height);
+}
 
 
 header
