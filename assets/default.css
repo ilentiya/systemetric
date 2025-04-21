@@ -40,7 +40,6 @@ body
 
 .content
 {
-    position: relative;
     width: 80vw;
     left: 10vw;
     right: 10vw;
@@ -48,7 +47,6 @@ body
     top: var(--header-height);
 
     margin-top: 15px;
-    margin-bottom: 15px;
     padding-bottom: var(--footer-height);
     text-align: center;
 
