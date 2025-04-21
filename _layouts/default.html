@@ -7,8 +7,10 @@
     <!--<link rel="icon" href="/assets/img/Logos/Browser_Icon.png" type="image">-->
   </head>
   <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+    <div id="page-container">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
   </body>
 </html>
